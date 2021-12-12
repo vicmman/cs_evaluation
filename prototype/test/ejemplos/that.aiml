@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- base de conocimiento para el contexto de "presentacion" -->
+<aiml version = "2.0">
+
+<category>
+	<pattern>HOLA</pattern>
+	<template> Hola don Amador, le gustaría platicar un rato conmigo?</template>
+</category>
+
+<category>
+	<pattern>HI</pattern>
+	<template>Te gustaria platicar en inglés?</template>
+</category>
+
+<category>	
+	<pattern>SI</pattern>
+	<that>TE GUSTARIA PLATICAR EN INGLÉS</that>
+	<template>Perfect! I can speak in both English and Spanish language</template>
+</category>
+
+<category>	
+	<pattern>SI</pattern>
+	<that>HOLA DON AMADOR LE GUSTARÍA PLATICAR UN RATO CONMIGO</that>
+	<template>
+		<random>
+			<!-- <li>Perfecto verás que nos la vamos a pasar muy bien</li>
+			<li>Me da gusto oir eso. A mi también me gusta mucho platicar contigo</li> -->
+			<li>Muy bien, a mi me gustaría platicar de la familia, a ti te gustaría?</li>
+		</random>
+	</template>
+</category>
+
+<category>	
+	<pattern>NO</pattern>
+	<that>HOLA DON AMADOR LE GUSTARÍA PLATICAR UN RATO CONMIGO</that>
+	<template>
+		<random>
+			<li>Que lastima, a mi me hubiera gustado mucho que platicaramos</li>
+			<li>Que pena oir eso, pero bueno tal vez en otra ocasión, cuídate mucho</li>
+			<li>Bueno, tal vez después te sientas con más ánimos para platicar</li>
+		</random>
+	</template>
+</category>
+
+<category>	
+	<pattern>SI ME GUSTARIA</pattern>
+	<that>MUY BIEN A MI ME GUSTARÍA PLATICAR DE LA FAMILIA A TI TE GUSTARÍA</that>
+	<template>Perfecto, a ti te gusta mucho que te venga a visitar tu familia?</template>
+</category>
+
+<category>	
+	<pattern>SI</pattern>
+	<that>categoria</that>
+	<template>
+		Este es el último si
+	</template>
+</category>
+
+</aiml>

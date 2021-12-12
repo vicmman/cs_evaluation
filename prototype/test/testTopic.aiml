@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version = "2.0">
+    <category>
+        <pattern>HOLA ROBOT</pattern>
+        <template>Hola <get name="primer_nombre_paciente"/>, te gustaria platicar de tu familia?</template>        
+    </category>
+</aiml>

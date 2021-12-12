@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../home/vicman/Documents/Projects/conectarBD"
+		},
+		{
+			"path": "../../../home/vicman/Documents/Projects/AIMLbot"
+		}
+	],
+	"settings": {
+		"python.pythonPath": "/home/vicman/anaconda3/bin/python"
+	}
+}

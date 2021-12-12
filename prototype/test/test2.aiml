@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version = "2.0">
+    <topic name = "FAMILIA">
+        <category>
+        <pattern> SI *</pattern>
+        <that>* HIJOS TIENES</that>
+        <template>Muy bien, tienes 3 hijos.</template>
+        </category>
+
+        <category>
+        <pattern>YO QUIERO A MI FAMILIA</pattern>
+        <template> Y recuerdas cosas de tu familia cuando eras niña?</template>
+        </category>
+
+        <category>
+            <pattern>FAMILIA *</pattern>
+            <template>Familia como prefijo</template>
+        </category>
+
+        <category>
+            <pattern>* FAMILIA</pattern>
+            <template>Familia como sufijo</template>
+        </category>
+
+        <category>
+            <pattern>* FAMILIA *</pattern>
+            <template>Familia como interfijo</template>
+        </category>
+    </topic>
+</aiml>
