@@ -1,0 +1,1 @@
+------------------------------------------------Google Said Hola{'_global': {'_inputHistory': ['Hola'], '_outputHistory': ['Tere me da gusto saludarte. Como estas?'], '_inputStack': [], 'patient_name': 'Tere', 'last_job': 'Ama de casa', 'fam1_name': 'Maribel', 'fam1_par': 'hija', 'fam2_name': 'Carlitos', 'fam2_par': 'nieto'}}------------------------------------------------
