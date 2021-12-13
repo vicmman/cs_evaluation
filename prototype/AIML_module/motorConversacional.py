@@ -28,8 +28,7 @@ kernel.setBotPredicate("age","40")
 kernel.setBotPredicate("gender","Mujer")
 kernel.setBotPredicate("birth_place","Puebla")
 
-#Se establecen constantes dentro que el bot puede utilizar
-#Se establecen los predicados en la sessionId=1
+#Se establecen los predicados en la sessionId=var_patient que se recuperan de la db
 kernel.setPredicate("patient_name", "Tere",1)
 kernel.setPredicate("last_job","Ama de casa",1)
 kernel.setPredicate("fam1_name", "Maribel",1)
@@ -41,8 +40,6 @@ kernel.setPredicate("fam2_age", "54",1)
 kernel.setPredicate("fam2_name", "Carlitos",1)
 kernel.setPredicate("fam2_par", "nieto",1)
 kernel.setPredicate("fam2_age", "12",1)
-
-#Se establecen los predicados en la sessionId=2
 kernel.setPredicate("nombre completo_paciente", "Amador de Jesús Cameda",2)
 kernel.setPredicate("primer_nombre_paciente", "Amador", 2)
 kernel.setPredicate("nombre_preferido_paciente", "Cameda", 2)
